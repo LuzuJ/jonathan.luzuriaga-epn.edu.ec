@@ -1,6 +1,6 @@
 package BusinessLogic.Entities;
 /**
- * Clase para representar a los usuarios de la tabla en el programa
+ * Clase que muestra los datos en el programa
  */
 public class User {
     String jlID;

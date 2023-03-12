@@ -11,7 +11,7 @@ public class CoordDAC extends SQLiteDataHelper {
         super(AppConfiguration.getDBPathConnection());
     }
     /**
-     * Metodo usado para obtener todas las coordenadas de las tablas dependiendo del usuario
+     * Metodo que obtiene todas las coordenadas de las tablas.
      * @return Retorna todos los datos que la tabla nos envia
      * @throws AppException
      */

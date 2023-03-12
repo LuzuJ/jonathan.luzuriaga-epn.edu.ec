@@ -46,14 +46,7 @@ public class AppConfiguration {
         return "";
     }
 
-    // public static void setPropertyValue(String property, String value){
-    //     try{
-    //         configOutput = new FileOutputStream("data/config.properties");
-    //         config.setProperty(property, value);
-    //     } catch(Exception e){
-    //         JOptionPane.showMessageDialog(null, "Error guardando configuracion\n" + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
-    //     }
-    // }
+
     
 
 }

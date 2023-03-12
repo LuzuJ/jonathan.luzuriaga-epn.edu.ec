@@ -11,8 +11,8 @@ import DataAccess.CoordDAC;
 
 public class CoordBl {
     /**
-     * Este metodo nos permite enlistar todos las coordenadas de la tabla correspondiente al usuario.
-     * @return Retorna la lista de los usuarios que hay en la abse de datos
+     * Metodo que permite enlistar las coordenadas de la tabla correspondiente.
+     * @return Retorna la lista de los usuarios.
      * @throws AppException
      */
     public List<Coord> jlGetAllCoords(String jlUser) throws AppException{

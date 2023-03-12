@@ -11,8 +11,8 @@ import DataAccess.UserDAC;
 
 public class UserBL {
     /**
-     * Este metodo nos permite enlistar todos los usuarios de la base de datos
-     * @return Retorna la lista de los usuarios que hay en la abse de datos
+     * Metodo que enlista todos los usuarios de la base de datos
+     * @return Retorna la lista de los usuarios
      * @throws AppException
      */
     public List<User> jlGetAllUsers()  throws AppException{

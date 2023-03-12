@@ -122,15 +122,15 @@ public class main {
             }
             System.out.println();
             System.out.println();
-            //Procedemos con la identificacion de sectores para aplicar la expresion regular que nos ha tocado
+            //identifica los sectores dela expresion regular que nos toca
             System.out.println("[Bombas]");
             Pattern pattern = Pattern.compile(JLREGEX);
             //Comprobamos con cada zona si aplica o no, denotando con un mensaje si lo hacen.
             for (Coord jlP : jlFixed) {
                 Matcher matcher = pattern.matcher(jlP.jlGetjlArs());
                 if(matcher.find()){
-                    jlP.jlSetjlArs(jlP.jlGetjlArs()+"dt  BOMB-IP");
-                    System.out.println("La zona: "+jlP.jlGetjlGeo()+" contiene la bomba BOMB-IP, su arsenal es: "+jlP.jlGetjlArs());
+                    jlP.jlSetjlArs(jlP.jlGetjlArs()+"dt  BOMB-II");
+                    System.out.println("La zona: "+jlP.jlGetjlGeo()+" contiene la bomba BOMB-II, su arsenal es: "+jlP.jlGetjlArs());
                 }
             }
             System.out.println();
